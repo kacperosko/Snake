@@ -33,6 +33,7 @@ public class MainSnake {
 
                     Panel panel = new Panel();
                     window.add(panel);
+
                     panel.metronome.start();
                     window.pack();
                 }else if (keyCode == KeyEvent.VK_ESCAPE && IS_RUNNING){
